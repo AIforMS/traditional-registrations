@@ -1,0 +1,70 @@
+Starting linear reg. of img0008_tcia_MR.nii.gz and img0008_tcia_CT.nii.gz
+=============================================================
+TMdDSTMdDS
+# points used: 8566/17135, quantile: 0.267100
+t: MIND=4.54, data=4.38, affine=0.27, speed=9.17e+06 dof/s
+TMdDSTMdDS
+# points used: 14584/29169, quantile: 0.273898
+t: MIND=4.43, data=2.52, affine=0.40, speed=1.33e+07 dof/s
+TMdDSTMdDS
+# points used: 26022/52047, quantile: 0.281591
+t: MIND=2.28, data=1.83, affine=0.21, speed=1.55e+07 dof/s
+TMdDSTMdDS
+# points used: 53480/106960, quantile: 0.290148
+t: MIND=4.53, data=1.69, affine=0.17, speed=1.24e+07 dof/s
++0.987 | +0.010 | +0.001 | -0.000 
+-0.033 | +0.913 | -0.009 | -0.000 
++0.091 | +0.186 | +1.178 | -0.000 
+-15.087 | -16.743 | -38.872 | +1.001 
+Finished. Total time: 28.4992 sec. (27.2661 sec. for MIND+data+affine+trans)
+Starting registration of img0008_tcia_MR.nii.gz and img0008_tcia_CT.nii.gz
+=============================================================
+Reading affine matrix file: ct-mr
+-21.582 | +0.000 | +18468129614698504020557824.000 | +51750336396957967187968.000 
++0.000 | +4631576035757424490934435840.000 | +263367920157278076928.000 | +293863119264557378700581011456.000 
+-21.582 | +4616807007520475366555648.000 | +67348396080368722116608.000 | +0.000 
++0.000 | +3392431497871007277152993280.000 | +60.848 | +15146252059684110336.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 24x20x24 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=4.57742, data=15.0238, MST-reg=6.14709, transf.=1.38746
+ speed=5.34675e+06 dof/s
+std(J)=0 (J<0)=0e-7  SSD before registration: -nan and after -nan
+
+==========================================================
+Level 1 grid=7 with sizes: 27x22x27 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=2.24687, data=11.3322, MST-reg=5.41795, transf.=1.38915
+ speed=6.46301e+06 dof/s
+std(J)=0 (J<0)=0e-7  SSD before registration: -nan and after -nan
+
+==========================================================
+Level 2 grid=6 with sizes: 32x26x32 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=4.58193, data=7.6444, MST-reg=5.35477, transf.=1.41659
+ speed=8.99948e+06 dof/s
+std(J)=0 (J<0)=0e-7  SSD before registration: -nan and after -nan
+
+==========================================================
+Level 3 grid=5 with sizes: 38x32x38 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=2.27929, data=7.11893, MST-reg=4.8907, transf.=1.38266
+ speed=1.02423e+07 dof/s
+std(J)=0 (J<0)=0e-7  SSD before registration: -nan and after -nan
+
+==========================================================
+Level 4 grid=4 with sizes: 48x40x48 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=4.56118, data=9.67634, MST-reg=4.58294, transf.=1.39813
+ speed=9.42328e+06 dof/s
+std(J)=0 (J<0)=0e-7  SSD before registration: -nan and after -nan
+
+SSD before registration: 751713 and after -nan
+outputseg /public/home/jd_shb/fromgithub/multimodal/deedsBCV/examples/ct-mr_deformed_seg.nii.gz
+Finished. Total time: 102.651 sec. (0 sec. for MIND+data+reg+trans)
